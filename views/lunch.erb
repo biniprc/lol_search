@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>잡동사니</title>
+    </head>
+    <body>
+        <h1>점심메뉴 추천</h1>
+        <p>당신이 먹을 점심은 : <%= @lunch.sample %></p>
+        <img src="<%= @photos[@menu] %>">
+    </body>
+</html>
